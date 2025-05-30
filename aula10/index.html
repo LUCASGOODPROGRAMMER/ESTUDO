@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>imagens dinâmicas</title>
+    <title>Mídias em HTML5</title>
 </head>
 <body>
-    
+    <header></header>
+    <main>
+        <h1>Imagem Dinâmica</h1>
+        <p>Teste o site em tamanhos diferentes</p>
+
+        <picture>
+            <source media="(max-width: 750px)" srcset="imgs/pdinamica.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imgs/mdinamica.png" type="image/png">
+            <img src="imgs/gdinamica.png" alt="imagem flexivel">
+        </picture> <!--A tag <picture> em HTML é usada para exibir imagens responsivas — ou seja, imagens que se adaptam ao tamanho da tela ou ao tipo de dispositivo, como celular, tablet ou desktop.-->
+
+            <h1>Mexendo com audios</h1>
+            <audio preload="metadata" controls autoplay loop>
+                <source src="" type="audio/mpeg">
+                <source src="" type="audio/ogg">
+                <source src="" type="audio/wav">
+                <p>SEU DISPOSITIVO NÃO CONSEGUE REPRODUZIR
+                    <a href="">baixar audio</a>
+                </p>
+            </audio>
+            <!--parâmetro loop mantêm o audio em loop
+            parâmetro autoplay executa o audio assim que carrega
+            parâmetro controls exibe os icones de controle de audio-->
+    </main>
+    <footer></footer>
 </body>
 </html>
