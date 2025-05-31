@@ -1,0 +1,9 @@
+* {
+    height: 100vh;
+}
+body{
+    /*parâmetro que permite fazer degrade*/
+    background-image: linear-gradient(to bottom, white, black 90%);
+    /*parametro para manter fixo um objeto em relação ao scroll*/
+    background-attachment: fixed;
+}
