@@ -19,6 +19,7 @@ body{
     box-shadow: 5px 5px 10px #595957;
     overflow: scroll;
     scrollbar-width: none;
+    border-radius: 1rem;
 }
 .corpo{
     display: flex;
