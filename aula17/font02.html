@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'codex';
+            src: url('fonts/codex.ttf') format('truetype'), url('codex.otf') format('opentype');
+            /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-att (Apple advanced Typografhy)
+            -
+            */
+
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font: italic normal 3rem 'codex'
+        }
+    </style>
+</head>
+<body>
+    <h1>TITULO</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sit id possimus ducimus voluptatum impedit exercitationem, blanditiis veritatis numquam, cum nesciunt quibusdam laboriosam earum adipisci dolor dignissimos, sequi minima rerum.</p>
+</body>
+</html>
