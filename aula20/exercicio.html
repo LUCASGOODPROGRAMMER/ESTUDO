@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        #menu {
+            color:rgb(11, 53, 242);
+            background-color:black;
+            width: 300px;
+            text-align: center;
+            color: white;
+        }
+        #menu > #inspencionar{
+            display: none;
+            text-align: left;
+            text-decoration: underline;
+            color: black;
+            background-color: white;
+            border: 1px solid black;
+            text-indent: 10px;
+            
+        }
+        #menu:hover > #inspencionar{
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="menu">
+        TAREFAS URGENTES!
+        <div id="inspencionar">
+            <div class="tarefas">MATEMATICA</div>
+            <div class="tarefas">PORTUGUES</div>
+            <div class="tarefas">INGLÊS</div>
+            <div class="tarefas">CYBERSECURITY</div>
+        </div>
+    </div>
+</body>
+
+</html>
