@@ -1,0 +1,39 @@
+tipos de caixa:
+box-level{
+    h1
+    p
+    main
+    header
+    nav
+    article
+    aside
+    footer
+    form
+    video
+
+    box-level são elementos que utiliza uma linha inteira, como se eles estivessem organizado em linhas com somente uma coluna
+}
+inline-level{
+    span
+    a
+    code
+    small
+    strong
+    em
+    sup-sub
+    label
+    button
+    input
+    select
+
+    formato de caixa que permite diferentes elementos na mesma linha
+
+}
+anatomia de uma caixa{
+    margin
+    padding
+    width
+    height
+    border
+    outline
+}
