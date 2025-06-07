@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background-color: white;
+            background-color: lightgray;
             margin: 0;
         }
 
@@ -26,25 +26,28 @@
             text-align: center;
             text-transform: uppercase;
         }
-        nav > ul{
-            display:flex;
+
+        nav>ul {
+            display: flex;
             list-style: none;
             border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(81, 81, 81, 0.352); /*eixo x eixo y eixo blur*/
+            box-shadow: 0px 0px 10px rgba(81, 81, 81, 0.352);
+            /*eixo x eixo y eixo blur*/
             padding: 0;
             margin: 10px 100px;
             justify-content: space-evenly;
+
+            li>a {
+                text-decoration: none;
+            }
         }
-        a{
-            
-        }
-        li > a {
-            text-decoration: none;
-        }
+
         main {
             background-color: white;
             padding: 10px;
             margin: 10px;
+            border-radius: 10px
+                /*border-radius: borda1 borda2 borda3 borda4*/
         }
 
         article {
@@ -52,7 +55,7 @@
             padding: 5px
         }
 
-        article > aside {
+        article>aside {
             background-color: rgb(171, 171, 171);
         }
 
@@ -62,18 +65,27 @@
             text-align: center;
             padding: 10px;
         }
-        footer > p{
+
+        footer>p {
             margin: 0;
         }
-        h1{
-           /*box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.432)*/
+
+        h1 {
+            /*box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.432)*/
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+            background-color: white;
         }
     </style>
 </head>
 
 <body>
     <header>
-        
+
         <nav>
             <h1>Meu Site</h1>
             <ul>
@@ -105,6 +117,7 @@
     <footer>
         <p>Desenvolvido pelo Lucas</p>
     </footer>
+    <div id="bola"></div>
 </body>
 
 </html>
