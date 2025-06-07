@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color:white;
+}
+body{
+    margin: 0% 15%;
+    background-color: black;
+}
+.navbar{
+    text-align: center;
+}
+.lista{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.lista > li > a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
