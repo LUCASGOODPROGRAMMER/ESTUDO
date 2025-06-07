@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            margin: 0;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 0px 0px 20px;
+        }
+
+        nav {
+            background-color: rgba(208, 202, 193, 0.437);
+            padding: 3px;
+            border-radius: 30px;
+            display: block;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        nav > ul{
+            display:flex;
+            list-style: none;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(81, 81, 81, 0.352); /*eixo x eixo y eixo blur*/
+            padding: 0;
+            margin: 10px 100px;
+            justify-content: space-evenly;
+        }
+        a{
+            
+        }
+        li > a {
+            text-decoration: none;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px
+        }
+
+        article > aside {
+            background-color: rgb(171, 171, 171);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        footer > p{
+            margin: 0;
+        }
+        h1{
+           /*box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.432)*/
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        
+        <nav>
+            <h1>Meu Site</h1>
+            <ul>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+            </ul>
+        </nav> <!-- Nav-Bar -->
+    </header>
+    <main>
+        <section>
+            <p style="color: black;">the best player</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>NOTICIAS UOL</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo fugit molestiae veniam adipisci saepe
+                    quo at unde doloremque earum mollitia porro repudiandae accusantium eum voluptatibus, voluptas
+                    aspernatur! Asperiores, beatae dolor.</p>
+                <aside>
+                    <p>Artigo escrito por lucas</p>
+                </aside>
+            </article>
+            <article></article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Lucas</p>
+    </footer>
+</body>
+
+</html>
